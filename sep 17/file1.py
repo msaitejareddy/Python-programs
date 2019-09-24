@@ -1,0 +1,10 @@
+#outfile=open('test.txt','w')
+#outfile.write('my name is sai\n')
+#outfile.write('i am a python developer')
+#outfile.close()
+
+outfile=open('scores.txt','w')
+print('enter a score')
+score=int(input())
+outfile.write(str(score))
+outfile.close()

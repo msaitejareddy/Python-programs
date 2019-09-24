@@ -1,0 +1,10 @@
+print('enter your sem1 gpa')
+g1=float(input())
+print('enter your sem2 gpa')
+g2=float(input())
+print('enter your sem3 gpa')
+g3=float(input())
+print('enter your sem4 gpa')
+g4=float(input())
+print('your GPA is'+' '+ str((g1+g2+g3+g4)/4))
+
